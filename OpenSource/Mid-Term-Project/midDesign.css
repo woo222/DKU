@@ -16,12 +16,15 @@ h1 {
     font-size: 48px;
     font-weight: 100;
 }
-.contents {
+.contents1 {
     font-size: 20px;
     font-weight: lighter;
 }
+.result {
+    font-size: 24px;
+}
 .intro_bg {
-    background-image: url("http://drive.google.com/uc?export=view&id=1LExkE6XFu-InOANAMlO8fZqmi7jlcl0z");
+    background-image: url("img/bg.jpg");
     background-size: 100% 718px;
     width: 100%;
     height: 718px;
@@ -72,4 +75,27 @@ h1 {
 }
 .intro_text > h1 {
     color:blanchedalmond;
+}
+
+.amount {
+    /* 현재위치에서 옮겨주기 */
+    position: relative;
+    top: -66px;
+    display: flex;
+    width: 1280px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    margin: auto;
+}
+.amount > li {
+    flex: 1;
+    height: 132px;
+}
+.amount > li > div {
+    text-align: center;
+    margin-top: 37px;
+    height:57px;
+}
+.amount > li:not(:last-child) > div{
+    border-right:1px solid #E1E1E1;
 }
