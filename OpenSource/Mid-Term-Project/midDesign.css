@@ -61,7 +61,7 @@ h1 {
     color:#fff;
     padding-left: 10px;
 }
-.search_area > form > span {
+.search_area > form > a > span {
     width:50px;
     color:#fff;
     font-weight: bold;
