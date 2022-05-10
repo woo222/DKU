@@ -152,7 +152,8 @@ h1 {
     margin: auto;
     letter-spacing: -1px;
 }
-.more {
+.more,
+.more > a {
     width:100px;
     background-color: #2F7AF4;
     color: #fff;
@@ -206,7 +207,8 @@ h1 {
 
 }
 .main_text2 > ul > li > div > h1,
-.main_text2 > ul > li > div {
+.main_text2 > ul > li > div,
+.main_text2 > ul > li > div > a{
     color: #fff;
 }
 
